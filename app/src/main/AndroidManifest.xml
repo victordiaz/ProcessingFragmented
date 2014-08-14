@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="processing.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application>
+        <activity
+            android:name=".MainActivity"
+            android:label="qq" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".example1.ProcessingActivitySingleSketch" />
+        <activity android:name=".example2.ProcessingActivityMultipleSketch" />
+        <activity android:name=".example3.ProcessingActivitySingleSketchOpenGL" />
+        <activity android:name=".example4.ProcessingActivityMultipleSketchOpenGL" />
+        <activity android:name=".example5.ProcessingActivitySingleSketchBackground" />
+    </application>
+
+</manifest>
